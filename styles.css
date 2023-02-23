@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(Red, orange, yellow, green, blue, indigo, violet);
+    color: #black;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 3px 2px 3px blue;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 29%;
+    border: 6px solid black;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: grey;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: grey;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid blue;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-funny:hover {
+    background-image: url("images/funny.gif");
+}
+
+#gift-img-ty:hover {
+    background-image: url("images/ty.gif");
+}
+
+#gift-img-Mike:hover {
+    background-image: url("images/Mike.gif");
+}
+
+#gift-img-Ollie:hover {
+    background-image: url("images/Ollie.jpg");
+}
+
+#gift-img-Friend:hover {
+    background-image: url("images/Friend.jpg");
+}
+
+#footer {
+    font-style: inherit;
+    font-weight: bold;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: black;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
